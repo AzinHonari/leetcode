@@ -62,6 +62,7 @@ function majorityElement(nums) {
 majorityElement([2, 2, 1, 1, 1, 2, 2]);
 
 // -----------------------------------------------------------------------
+// the best solution: O(n) time, O(1) space
 
 function majorityElement(nums) {
   // Boyer Moore Voting Algorithm
